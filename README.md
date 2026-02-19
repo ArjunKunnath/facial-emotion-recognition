@@ -18,7 +18,7 @@ This project implements a deep learning-based Facial Emotion Recognition (FER) s
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/facial-emotion-recognition.git
+git clone https://github.com/ArjunKunnath/facial-emotion-recognition.git
 cd facial-emotion-recognition
 ```
 
