@@ -1,0 +1,15 @@
+emotion_env/
+data/
+logs/
+models/
+artifacts/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.h5
+*.png
+*.jpg
+*.jpeg
+*.DS_Store
+desktop.ini
