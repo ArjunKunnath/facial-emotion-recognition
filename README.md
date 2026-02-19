@@ -5,10 +5,10 @@ This project implements a deep learning-based Facial Emotion Recognition (FER) s
 ## Project Structure
 
 - `facial_emotion_recognition/`: Core implementation scripts.
-    - `train_model.py`: Main script for training the deep learning model.
-    - `realtime_emotion.py`: Real-time webcam-based emotion detection.
-    - `image_emotion.py`: Emotion detection from static images.
-    - `models/`: Directory where trained models are stored.
+  - `train_model.py`: Main script for training the deep learning model.
+  - `realtime_emotion.py`: Real-time webcam-based emotion detection.
+  - `image_emotion.py`: Emotion detection from static images.
+  - `models/`: Directory where trained models are stored.
 - `data/`: Dataset directory (e.g., FER2013).
 - `haarcascade/`: Face detection classifier files.
 - `docs/`: Documentation and architecture diagrams.
@@ -16,6 +16,58 @@ This project implements a deep learning-based Facial Emotion Recognition (FER) s
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/facial-emotion-recognition.git
-   cd facial-emotion-recognition
+
+```bash
+git clone https://github.com/your-username/facial-emotion-recognition.git
+cd facial-emotion-recognition
+```
+
+2. Install the required dependencies:
+
+```bash
+pip install tensorflow keras opencv-python numpy
+```
+
+## Usage
+
+### Train the Emotion Recognition Model
+
+```bash
+python train_model.py
+```
+
+### Run Real-Time Emotion Detection (Webcam)
+
+```bash
+python realtime_emotion.py
+```
+
+### Detect Emotion from an Image
+
+```bash
+python image_emotion.py
+```
+
+Ensure that the trained model file and Haar cascade classifier are available in the project directory before running inference scripts.
+
+## Requirements
+
+- Python 3.8+
+- TensorFlow / Keras
+- NumPy
+- OpenCV
+- Matplotlib (optional for visualization)
+
+## Dataset
+
+The model is trained using the FER2013 dataset consisting of grayscale facial images categorized into seven emotion classes.
+
+## Emotion Classes
+
+- Angry  
+- Disgust  
+- Fear  
+- Happy  
+- Neutral  
+- Sad  
+- Surprise  
