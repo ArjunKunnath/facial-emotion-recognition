@@ -74,5 +74,5 @@ The model is trained using the FER2013 dataset consisting of grayscale facial im
 
 ## Architecture Diagram 
 
-<p align="center"> <img src="diagram.png" alt="Facial Emotion Recognition Architecture Diagram" width="900"> </p>
+<p align="center"> <img src="diagram.png" alt="Facial Emotion Recognition Architecture Diagram" width="400"> </p>
 
